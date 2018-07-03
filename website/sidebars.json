@@ -1,0 +1,46 @@
+{
+  "docs": {
+    "Contracts": [
+      "contracts-overview",
+      "contracts-install",
+      "contracts-orders",
+      "contracts-api",
+      "contracts-cancel-orders",
+      "contracts-appendix"
+    ],
+    "Client": [
+      "client-getting-started",
+      "client-components"
+    ],
+    "Matching Engine": [
+      "matching-engine-getting-started",
+      "matching-engine-architecture",
+      "matching-engine-api"
+    ],
+    "Other Packages": [
+      "packages-contract-interfaces",
+      "packages-private-chain"
+    ]
+  },
+  "project": {
+    "Project": [
+      "project-what-is-amp",
+      "project-comparison",
+      "project-roadmap",
+      "project-community",
+      "project-contributors"
+    ]
+  },
+  "platform": {
+    "Walkthrough": [
+      "walkthrough-creating-account",
+      "walkthrough-security",
+      "walkthrough-deposit-funds",
+      "walkthrough-withdraw-funds",
+      "walkthrough-how-to-trade"
+    ],
+    "FAQ": [
+      "faq-what-is-weth"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+/* your custom css */
+
+body {
+	background-color: #30404D;
+}
+
+p {
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #48AFF0;
+}
+
+.projectTitle {
+	color: #fff;
+}
+
+.productShowcaseSection h2 {
+	color: #fff;
+}
+
+a {
+	color: #2B95D6;
+}
+
+a:hover {
+	color: #2B95D6;
+}
+
+a.navItem {
+	color: #2B95D6;
+}
+
+.toc .toggleNav ul li a {
+	color: #fff;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+	color: #fff;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+	color: #2B95D6;
+}
+
+.toc .toggleNav ul li a:hover, .toc .toggleNav ul li a:focus {
+    color: #2B95D6;
+}
+
+.onPageNav a {
+	color: #2B95D6;
+}
+
+.button {
+    border: 1px solid #394B59;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container.docsNavContainer#docsNav {
+	background-color: #394B59;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    width: 15%;
+    bottom: 0;
+    height: 100%;
+    border: 1px solid #202B33;
+    border-top: none;
+ }
+
+ .fixedHeaderContainer {
+    background: #394B59;
+    border: 1px solid #202B33;
+    color: #fff;
+    min-height: 50px;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.button:hover {
+    background: #106BA3;
+    /*border: 2px solid #106BA3;*/
+    color: #fff;
+}
+
+.separateOnPageNav .wrapper, .separateOnPageNav .headerWrapper.wrapper {
+	max-width: 1200px;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1600px) {
+	.container.docsNavContainer#docsNav {
+		display: none;
+	}
+	#docsNav {
+		display: none;
+	}
+	.separateOnPageNav .wrapper, .separateOnPageNav .headerWrapper.wrapper {
+		max-width: 1200px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+	.container.docsNavContainer#docsNav {
+		display: none;
+	}
+	#docsNav {
+		display: none;
+	}
+}
+
+th {
+  color: white !important;
+  border: 1px solid #5C7080;
+}
+
+
+
+td {
+  background-color: #30404D;
+  color: white !important;
+  border: 1px solid #5C7080 !important;
+}
+
+tr:hover td {
+  background-color: #5C7080 !important;
+}
+
+/* tr:hover {
+  background-color: #5C7080 !important;
+} */
+
+ul {
+  color: white !important;
+
+  li {
+    color: white !important;
+  }
+}
+
